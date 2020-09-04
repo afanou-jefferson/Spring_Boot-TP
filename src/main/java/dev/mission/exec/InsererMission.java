@@ -28,4 +28,5 @@ public class InsererMission implements Runnable {
 		mission.setDateFin(LocalDate.of(2019, 3, 4));
 		this.missionRepository.save(mission);
 	}
+
 }
